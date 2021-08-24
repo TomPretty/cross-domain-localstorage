@@ -1,0 +1,7 @@
+name: cross-origin-domain
+domain-root: thegulocal.com
+mappings:
+  - port: 7001
+    prefix: dom-a
+  - port: 7002
+    prefix: dom-b
