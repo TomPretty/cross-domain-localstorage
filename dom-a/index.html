@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Domain A</title>
-</head>
-<body>
-	<h1>Domain A</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domain A</title>
+  </head>
+  <body>
+    <h1>Domain A</h1>
 
-	<h2>Get article count</h2>
+    <h2>Get article count</h2>
 
-	<p>The article count is: <span id="ac-text">XX</span> </p>
+    <div>
+      <p id="ac-text"></p>
 
-	<iframe id="iframe" src="https://dom-b.thegulocal.com/iframe.html" frameborder="0"></iframe>
+      <button id="opt-out-button">Opt out</button>
+      <button id="opt-in-button">Opt in</button>
+    </div>
 
-	<script src="./script.js"></script>
-</body>
+    <iframe
+      id="iframe"
+      src="https://dom-b.thegulocal.com/iframe.html"
+      frameborder="0"
+    ></iframe>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
